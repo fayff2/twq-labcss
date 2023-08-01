@@ -122,12 +122,23 @@ margin-left: 30px;
 
 }
 
+
+    .card img:hover {
+        top: -10px;
+    }
+
 .card img{
+   
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 width: 350px;
 height: 300px;
 border: 2px solid rgb(24, 23, 23);
 
 }
+
+
 
 .cards span {
     
